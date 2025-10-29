@@ -1,49 +1,95 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Arial', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .container {
-  text-align: center;
-  width: 100%;
-  max-width: 500px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
 }
 
 .avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 h1 {
-  margin-bottom: 30px;
-  font-size: 24px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 23px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons a.linkedin:hover {
+    color: #0077b5;
+}
+
+.social-icons a.youtube:hover {
+    color: #ff0000;
+}
+
+.social-icons a.instagram:hover {
+    color: #e1306c;
+}
+
+.social-icons a.strava:hover {
+    color: #fc4c02;
+}
+
+.social-icons a.steam:hover {
+    color: #00adee;
+}
+
+.social-icons a.stackoverflow:hover {
+    color: #f48024;
 }
 
 .link-list a {
-  display: block;
-  background-color: #111;
-  color: #fff;
-  text-decoration: none;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 30px;
-  transition: background 0.3s;
+    display: block;
+    background-color: #111;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 30px;
+    transition: background 0.3s;
 }
 
 .link-list a:hover {
-  background-color: #333;
+    background-color: #333;
 }
