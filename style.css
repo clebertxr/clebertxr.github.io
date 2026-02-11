@@ -59,18 +59,6 @@ h1 {
     color: #ff0000;
 }
 
-.social-icons a.instagram:hover {
-    color: #e1306c;
-}
-
-.social-icons a.strava:hover {
-    color: #fc4c02;
-}
-
-.social-icons a.stackoverflow:hover {
-    color: #f48024;
-}
-
 .link-list a {
     display: block;
     background-color: #111;
